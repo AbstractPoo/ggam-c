@@ -1,0 +1,41 @@
+#right-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: fit-content;
+  max-width: 300px;
+  max-height: calc(100vh - 20px);
+  transition: all 2s;
+}
+
+#leaderboard {
+  padding: 0px 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #4c5c68;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+  overflow-y: hidden;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  transition: all 2s;
+}
+
+#name-changer {
+  font-size: 1rem;
+  width: 100%;
+}
+
+#leaderboard > * {
+  border-bottom: 1px solid #c5c3c6;
+}
+
+.player-entry {
+  padding: 0.5rem 0.5rem;
+}
+
+.player-entry:last-child {
+  border-bottom: 0px !important;
+}

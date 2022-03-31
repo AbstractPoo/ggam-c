@@ -1,0 +1,26 @@
+body {
+  background-color: #27292b;
+  margin: unset;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #c5c3c6;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #dcdcdd;
+}
